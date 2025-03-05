@@ -34,22 +34,6 @@
   grid-row-start: 5;
 }
 
-.sideNav {
-  position: fixed;
-  top: 22rem;
-  left: 5rem;
-  transition: opacity 2s ease-out;
-}
-
-.sideNav ul {
-  list-style: none;
-}
-
-.invisible {
-  opacity: 0;
-  transition: opacity .5s;
-}
-
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
 }
